@@ -63,17 +63,20 @@
                 };
               };
 
-              tabline = {
-                nvimBufferline.enable = true;
-              };
+              # tabline = {
+              #   nvimBufferline.enable = false;
+              # };
 
+              # Syntax highlighting
               treesitter.context.enable = true;
 
+              # Helpers and man search
               binds = {
                 whichKey.enable = true;
                 cheatsheet.enable = true;
               };
 
+              # Fuzzy finder
               telescope.enable = true;
 
               git = {
@@ -82,6 +85,7 @@
                 gitsigns.codeActions.enable = false; # throws an annoying debug message
               };
 
+              # Commenting bindings
               comments = {
                 comment-nvim.enable = true;
               };
