@@ -15,6 +15,7 @@
             config.vim = {
               vimAlias = true;
               useSystemClipboard = true;
+              options.tabstop = 4;
 
               theme = {
                 enable = true;
